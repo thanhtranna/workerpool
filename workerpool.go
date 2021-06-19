@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tranthanh95/workerpool/deque"
+	deque "github.com/tranthanh95/workerpool/deque"
 )
 
 const (
