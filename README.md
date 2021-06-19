@@ -3,7 +3,6 @@
 [![GoDoc](https://pkg.go.dev/badge/github.com/tranthanh95/workerpool)](https://pkg.go.dev/github.com/tranthanh95/workerpool)
 [![Build Status](https://github.com/tranthanh95/workerpool/actions/workflows/go.yml/badge.svg)](https://github.com/tranthanh95/workerpool/actions/workflows/go.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/tranthanh95/workerpool)](https://goreportcard.com/report/github.com/tranthanh95/workerpool)
-[![codecov](https://codecov.io/gh/gammazero/workerpool/branch/master/graph/badge.svg)](https://codecov.io/gh/tranthanh95/workerpool)
 
 Concurrency limiting goroutine pool. Limits the concurrency of task execution, not the number of tasks queued. Never blocks submitting tasks, no matter how many tasks are queued.
 
