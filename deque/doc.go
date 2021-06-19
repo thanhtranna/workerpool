@@ -23,5 +23,4 @@ deque.  This is a run-time check to help catch programming errors, which may be
 missed if a second return value is ignored.  Simply check Deque.Len() before
 reading from the deque.
 */
-
 package deque
