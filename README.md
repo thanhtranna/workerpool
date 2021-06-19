@@ -13,12 +13,15 @@ This implementation builds on ideas from the following:
 - http://nesv.github.io/golang/2014/02/25/worker-queues-in-go.html
 
 ## Installation
-To install this package, you need to setup your Go workspace.  The simplest way to install the library is to run:
+
+To install this package, you need to setup your Go workspace. The simplest way to install the library is to run:
+
 ```
 $ go get github.com/tranthanh95/workerpool
 ```
 
 ## Example
+
 ```go
 package main
 
@@ -45,4 +48,4 @@ func main() {
 
 ## Usage Note
 
-There is no upper limit on the number of tasks queued, other than the limits of system resources.  If the number of inbound tasks is too many to even queue for pending processing, then the solution is outside the scope of workerpool.  If should be solved by distributing load over multiple systems, and/or storing input for pending processing in intermediate storage such as a file system, distributed message queue, etc.
+There is no upper limit on the number of tasks queued, other than the limits of system resources. If the number of inbound tasks is too many to even queue for pending processing, then the solution is outside the scope of workerpool. If should be solved by distributing load over multiple systems, and/or storing input for pending processing in intermediate storage such as a file system, distributed message queue, etc.
